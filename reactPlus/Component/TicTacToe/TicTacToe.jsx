@@ -1,4 +1,5 @@
 import React, { useReducer, useCallback, useEffect } from 'react';
+import { BrowserRouter, Link } from 'react-router-dom';
 import Table from './Table';
 
 const initialState = {
@@ -95,6 +96,8 @@ const TicTacToe = function () {
             {/* 빈문자열은 false로 반환됩니다. 
             논리연산자 왼쪽이 true이면 오른쪽의 값을 나타내고
             false이면 왼쪽의 값을 나타냅니다. */}
+            <Link to='/ticTacToe'>틱택토</Link>
+            <Link to='/mineSearch'>지뢰찾기</Link>
         </>
     );
 };

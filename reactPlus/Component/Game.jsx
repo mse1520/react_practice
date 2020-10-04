@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, HashRouter, Route, Link} from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Link } from 'react-router-dom';
 import MineSearch from './MineSearch/MineSearch';
 import TicTacToe from './TicTacToe/TicTacToe';
 
